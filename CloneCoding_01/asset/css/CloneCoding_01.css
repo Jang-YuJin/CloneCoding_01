@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.fontSize30{
+    font-size: 30px;
+}
+
+.lineHeignt{
+    line-height: 1.6;
+}
+
+
+#section1{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/9b22e6f1444b5ae785f3a267/pexelsphoto3326103.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+    margin-top: -1px;
+    height: 650px;
+}
+
+#section1 header .serch{
+    margin: 20px 190px;
+    border: 1px solid white;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+#section1 header .serch input{
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    background: transparent;
+}
+
+#section1 header .serch button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#section1 .text{
+    width: 1145px;
+    display: flex;
+    flex-direction: column;
+    margin: 350px auto 0 auto;
+}
+
+#section1 .text .topText{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 10px 10px 10px 0px;
+    background-color: white;
+    width: 350px;
+    /* position: relative;
+    top: 350px;
+    left: 190px; */
+}
+
+#section1 .text .bottomText{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 10px 10px 10px 0px;
+    background-color: gold;
+    width: 270px;
+    margin-top: -10px;
+    /* position: relative;
+    top: -10px;
+    left: 190px; */
+}
+
+
+#section2{
+    background-image: url("../img/yellowBox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+
+#section2 .container{
+    width: 850px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 .container .left{
+    width: 350px;
+    border: 4px solid black;
+    background-color: white;
+    padding: 60px 30px;
+}
+
+#section2 .container .left .topText{
+    margin-bottom: 25px;
+}
+
+#section2 .container .right{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e07fd7349a87546e950fb324/photo1564305564045c62d40dd0123.jpg");
+    width: 350px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#section3{
+    height: 405px;
+    display: flex;
+    justify-content: center;
+}
+
+#section3 .container{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section3 .container .img1{
+    background-image: url("https://images01.nicepage.com/a2/fc/a2fc4ef890f44fa0a9bb7787ce17008d.jpeg");
+    width: 293px;
+    height: 342px;
+    background-position: center;
+    background-size: cover;
+}
+
+#section3 .container .img2{
+    background-image: url("https://images01.nicepage.com/62/43/6243854162c536333ab218a58996077f.jpeg");
+    width: 293px;
+    height: 342px;
+    background-position: center;
+    background-size: cover;
+}
+
+#section3 .container div[class ^= text]{
+    box-sizing: border-box;
+    border: 4px solid black;
+    width: 293px;
+    height: 342px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .container div[class ^= text] > .topText{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+#section4{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/992eb4a786e9521ea39ea995/pexelsphoto940302.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 765px;
+    padding-top: 1px;
+    margin-top: -1px;
+}
+
+#section4 .container{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 560px auto 0 auto;
+    /* position: relative;
+    top: 560px;
+    left: 250px; */
+}
+
+#section4 .container .topText{
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+#section4 .container .bottomText{
+    width: 600px;
+}
+
+
+#section5{
+    height: 841px;
+}
+
+#section5 .back{
+    background-image: url("../img/yellowBox2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 576px;
+}
+
+#section5 .back .top{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section5 .top .leftImg{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/b997f5453a025796b7e011f6/pexelsphoto3659862.jpeg");
+    width: 498px;
+    height: 448px;
+    background-position: bottom;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#section5 .top .rightImg{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/89f0b40da8d05b4088f24d63/pexelsphoto704569.jpeg");
+    width: 498px;
+    height: 448px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+#section5 .bottom{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section5 .bottom .topText{
+    margin-bottom: 30px;
+}
+
+#section5 .bottom .bottomText{
+    width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#section5 .bottom button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+#section6{
+    height: 567px;
+}
+
+#section6 .container{
+    margin: 0 auto;
+    width: 1150px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section6 .container .img1{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/e5a2d57a68bc5de4b52746a3/pexelsphoto3756523.jpeg");
+    width: 366px;
+    height: 461px;
+    background-position: center;
+    background-size: cover;
+}
+
+#section6 .container .img2{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/fcee991985085d4093370a3d/pexelsphoto3756525.jpeg");
+    width: 366px;
+    height: 461px;
+    background-position: center;
+    background-size: cover;
+}
+
+#section6 .container .text{
+    width: 366px;
+    height: 461px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section6 .container .text .topText{
+    font-weight: 500;
+}
+
+#section6 .container .text .midText::before{
+    content: "\0022\A";
+    white-space: pre-wrap;
+    font-size: 60px;
+}
+
+#section6 .container .text .topText span{
+    font-size: 18px;
+}
+
+#section6 .container .text .midText{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section6 .container .text .bottomText{
+    font-size: 18px;
+}
+
+
+#section7{
+    height: 697px;
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/3cb19967a4645debbcf2c90a/pexelsphoto3831823.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#section7 .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#section7 .container .btn{
+    margin-bottom: 15px;
+}
+
+#section7 .container .btn a{
+    margin: 0 5px;
+}
+
+#section7 .container .text{
+    margin-bottom: 60px;
+}
+
+
+footer{
+    height: 245px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .top{
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .bottom{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer .bottom a:link{
+    text-decoration: underline;
+    color:cadetblue;
+}
+
+footer .bottom a:visited{
+    text-decoration: underline;
+    color:cadetblue;
+}
+
+footer .bottom a:hover{
+    text-decoration: none;
+    color: silver;
+}
