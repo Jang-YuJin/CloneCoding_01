@@ -10,3 +10,6 @@ https://website70258.nicepage.io/Page-2.html
 
 -todo<br>
 반응형 웹페이지처럼 보이도록 media쿼리를 이용하기
+
+-220118<br>
+section1 반응형 웹으로 수정
