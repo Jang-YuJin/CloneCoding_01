@@ -19,36 +19,40 @@ body{
     background-size: cover;
     padding-top: 1px;
     margin-top: -1px;
-    height: 650px;
 }
 
-#section1 header .serch{
-    margin: 20px 190px;
+#section1 header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#section1 header .search{
     border: 1px solid white;
     width: 170px;
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
+    /*margin-right: 75%;*/
 }
 
-#section1 header .serch input{
+#section1 header .search input{
     width: 100px;
     border: none;
     font-size: 18px;
     background: transparent;
 }
 
-#section1 header .serch button{
+#section1 header .search button{
     border: none;
     background: transparent;
     cursor: pointer;
 }
 
 #section1 .text{
-    width: 1145px;
+    /*width: 1145px;*/
     display: flex;
     flex-direction: column;
-    margin: 350px auto 0 auto;
+    margin-top: 350px;
 }
 
 #section1 .text .topText{
@@ -57,6 +61,7 @@ body{
     padding: 10px 10px 10px 0px;
     background-color: white;
     width: 350px;
+    margin-right: 75%;
     /* position: relative;
     top: 350px;
     left: 190px; */
@@ -69,6 +74,7 @@ body{
     background-color: gold;
     width: 270px;
     margin-top: -10px;
+    margin-right: 75%;
     /* position: relative;
     top: -10px;
     left: 190px; */
@@ -378,4 +384,139 @@ footer .bottom a:visited{
 footer .bottom a:hover{
     text-decoration: none;
     color: silver;
+}
+
+/* 반응형 */
+@media screen and (max-width: 576px) {
+    #section1{
+        height: 500px;
+    }
+
+    #section1 header .search{
+        margin: 30px auto 30px auto;
+        width: 300px;
+    }
+
+    #section1 .text{
+        width: 350px;
+        margin: 250px auto 0 auto;
+    }
+
+    #section1 .text .topText{
+        font-size: 20px;
+        width: 220px;
+    }
+    
+    #section1 .text .bottomText{
+        font-size: 20px;
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    #section1{
+        height: 500px;
+    }
+
+    #section1 header .search{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 60%;
+    }
+
+    #section1 .text{
+        width: 500px;
+        margin: 250px auto 0 auto;
+    }
+
+    #section1 .text .topText{
+        font-size: 24px;
+        width: 270px;
+    }
+    
+    #section1 .text .bottomText{
+        font-size: 24px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #section1{
+        height: 550px;
+    }
+
+    #section1 header .search{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 75%;
+    }
+
+    #section1 .text{
+        width: 830px;
+        margin: 320px auto 0 auto;
+    }
+
+    #section1 .text .topText{
+        font-size: 24px;
+        width: 270px;
+    }
+    
+    #section1 .text .bottomText{
+        font-size: 24px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #section1{
+        height: 600px;
+    }
+
+    #section1 header .search{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 77%;
+    }
+
+    #section1 .text{
+        width: 950px;
+        margin: 330px auto 0 auto;
+    }
+    
+    #section1 .text .topText{
+        font-size: 28px;
+        width: 340px;
+    }
+    
+    #section1 .text .bottomText{
+        font-size: 28px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #section1{
+        height: 650px;
+    }
+
+    #section1 header .search{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 75%;
+    }
+
+    #section1 .text{
+        width: 1145px;
+        margin: 350px auto 0 auto;;
+    }
+
+    #section1 .text .topText{
+        font-size: 32px;
+        width: 350px;
+    }
+    
+    #section1 .text .bottomText{
+        font-size: 32px;
+        width: 270px;
+    }
 }
