@@ -13,3 +13,7 @@ https://website70258.nicepage.io/Page-2.html
 
 -220118<br>
 section1 반응형 웹으로 수정
+
+-220119<br>
+section2 반응형 웹으로 수정<br>
+768px 이하에서부터 노란색 사각형 배경 안으로 text박스가 있어야하는데 노란색 배경 상단에 맞춰서 text박스가 나오는 부분이 아쉬움
