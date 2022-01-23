@@ -29,3 +29,7 @@ container로 위치를 조정하니까 원본 웹페이지만큼 페이지 크�
 -220122<br>
 section5 반응형 웹으로 수정<br>
 section5 노란색 박스 배경이 원본 웹페이지와 위치가 맞지 않고 페이지를 늘릴 때마다 노란색 박스 배경도 같이 늘어나는 점이 아쉬움
+
+-220123<br>
+section6, section7, footer 반응형 웹으로 수정<br>
+웹페이지 clone coding 완성
